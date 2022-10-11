@@ -21,14 +21,14 @@
     <a-scene embedded arjs>
 
         <a-assets>
-            <a-asset-item id = "flower" src="Assets/Blender/FlowerFinal.gltf">
+            <a-asset-item id = "flower" src="Assets/Blender/FlowerAnimation.gltf">
             </a-asset-item>
         </a-assets>
 
         <a-entity gltf-model="#flower" scale="0.6 0.6 0.6" position="0 .3 0" animation-mixer = "loop : repeat"></a-entity>
         
         <!-- Import flower marker created -->
-        <a-marker-camera type='pattern' url='Assets/Markers/NewFlower.patt'>
+        <a-marker-camera type='pattern' url='Assets/Markers/FlowerMarker.patt'>
         </a-marker-camera>
 
     </a-scene>

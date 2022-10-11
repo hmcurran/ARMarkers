@@ -21,14 +21,14 @@
     <a-scene embedded arjs>
 
         <a-assets>
-            <a-asset-item id = "fire" src="Assets/Blender/FireFinalUse.gltf">
+            <a-asset-item id = "fire" src="Assets/Blender/FireAnimation.gltf">
             </a-asset-item>
         </a-assets>
 
         <a-entity gltf-model="#fire" scale="1 1 1" position="0 0 0" animation-mixer = "loop : repeat"></a-entity>
         
         <!-- Import flower marker created -->
-        <a-marker-camera type='pattern' url='Assets/Markers/blocks.patt'>
+        <a-marker-camera type='pattern' url='Assets/Markers/FireMarker.patt'>
         </a-marker-camera>
 
     </a-scene>
